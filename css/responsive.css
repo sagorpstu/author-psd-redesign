@@ -1,0 +1,392 @@
+/*For Large Device*/
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .row {
+        width: 970px;
+    }
+
+    .logo {
+        margin-left: 10px;
+    }
+
+    .service-text p {
+
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+    .col-4 {
+
+        padding-right: 0px;
+    }
+
+
+    .single-service {
+        padding: 10px;
+    }
+
+    .get-con {
+        padding-left: 10px;
+    }
+
+    .add-con {
+        color: #aaa;
+        padding-left: 10px;
+    }
+
+
+}
+
+/*For Medium Device*/
+
+@media (min-width: 768px) and (max-width:991px) {
+
+    .row {
+        width: 750px;
+    }
+
+    .logo {
+        float: none;
+        margin-top: 40px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .logo img {
+        width: 20%;
+    }
+
+    .menu {
+        float: none;
+        text-align: center;
+    }
+
+
+    .owl-carousel .owl-nav button span {
+
+        font-size: 40px;
+        width: 30px;
+        line-height: 20px;
+        height: 30px;
+    }
+
+
+    .slider-text h1 {
+        font-size: 32px;
+        margin-bottom: 4px;
+    }
+
+    .slider-text a {
+
+        font-size: 13px;
+
+    }
+
+    .service-text p {
+
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+    .col-4 {
+        width: 50%;
+        float: left;
+        padding-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .pad-100 {
+        padding: 40px 0px;
+    }
+
+    .single-service {
+        padding: 10px;
+    }
+
+    .get-con {
+        padding-left: 10px;
+    }
+
+    .add-con {
+        color: #aaa;
+        padding-left: 10px;
+    }
+
+
+}
+
+
+/*For Small Mobile Device*/
+
+@media (min-width: 576px) and (max-width:767px) {
+
+    .row {
+        width: 550px;
+    }
+
+    .logo {
+        float: none;
+        margin-top: 40px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .logo img {
+        width: 20%;
+    }
+
+    .menu {
+        float: none;
+        text-align: center;
+    }
+
+
+    .menu ul li a {
+        padding: 20px 15px;
+        font-size: 16px;
+
+    }
+
+
+    .owl-carousel .owl-nav button span {
+
+        font-size: 40px;
+        width: 30px;
+        line-height: 20px;
+        height: 30px;
+    }
+
+
+    .slider-text h1 {
+        font-size: 32px;
+        margin-bottom: 4px;
+    }
+
+    .slider-text a {
+
+        font-size: 13px;
+
+    }
+
+    .slider-text p {
+        display: none;
+    }
+
+
+    .port-50 {
+        width: 50%;
+        float: left;
+        padding-right: 15px;
+    }
+
+    .col-4 {
+        width: 50%;
+        float: left;
+        padding-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .pad-100 {
+        padding: 40px 0px;
+    }
+
+    .single-service {
+        padding: 10px;
+    }
+
+
+    .single-test h3 {
+        font-size: 28px;
+        color: #44C0C2;
+    }
+
+
+    .col-2 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+
+    .single-test p {
+        font-size: 16px;
+        line-height: 27px;
+        color: #485460;
+    }
+
+    .footer-title h3 {
+        color: #fff;
+        font-size: 32px;
+    }
+
+    .get-con h3 {
+        font-size: 20px;
+        color: #f1f1f1;
+        margin-bottom: 10px;
+    }
+
+    .send-con {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+
+
+
+    .get-con {
+        padding-left: 10px;
+    }
+
+    .add-con {
+        color: #aaa;
+        padding-left: 10px;
+    }
+
+
+}
+
+
+/*For Extra Small Mobile Device*/
+@media (min-width: 320px) and (max-width:575px) {
+
+    .row {
+        width: 300px;
+    }
+
+    .logo {
+        float: none;
+        margin-top: 40px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .logo img {
+        width: 20%;
+    }
+
+    .menu {
+        float: none;
+        text-align: center;
+    }
+
+
+    .menu ul li a {
+        padding: 8px 12px;
+        font-size: 16px;
+    }
+
+
+    .owl-carousel .owl-nav button span {
+
+        display: none;
+    }
+
+
+    .slider-text h1 {
+        font-size: 16px;
+    }
+
+    .slider-text a {
+        font-size: 13px;
+        display: none;
+    }
+
+    .slider-text p {
+        display: none;
+    }
+
+
+    .port-50 {
+        width: 50%;
+        float: left;
+        padding-right: 15px;
+    }
+
+    .col-4 {
+        width: 100%;
+        padding-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .pad-100 {
+        padding: 15px 0px;
+    }
+
+    .single-service {
+        padding: 10px;
+    }
+
+
+    .single-test h3 {
+        font-size: 18px;
+        color: #44C0C2;
+    }
+
+    .sec-title h3 {
+        color: #4E525D;
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+
+
+    .client-pic {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+
+    .col-3 {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .col-2 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+
+    .single-test p {
+        display: none;
+    }
+
+    .footer-title h3 {
+        color: #fff;
+        font-size: 32px;
+    }
+
+    .get-con h3 {
+        font-size: 20px;
+        color: #f1f1f1;
+        margin-bottom: 10px;
+    }
+
+    .send-con {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+
+
+
+    .get-con {
+        padding-left: 10px;
+    }
+
+    .add-con {
+        color: #aaa;
+        padding-left: 10px;
+    }
+
+}
+
+
+
+
+
+

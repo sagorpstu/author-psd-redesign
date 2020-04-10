@@ -1,0 +1,593 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+}
+
+/*Reusuable Element*/
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	transition: all .5s ease;
+}
+
+.fix{
+	overflow: hidden;
+}
+
+.clear-fix{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.row{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.tc{
+	text-align: center;
+}
+.pad-100{
+	padding: 100px 0px;
+}
+/*Reusuable Element*/
+
+/*Header Part*/
+.header-area {
+	min-height: 87px;
+}	
+
+.logo{
+	float: left;
+	margin-top: 20px;
+
+}
+
+.logo img{
+	width: 100%;
+
+}
+
+.menu {
+	float: right;
+}
+
+.menu ul li{
+	display: inline-block;
+}
+
+.menu ul li a {
+	padding: 30px 25px;
+	display: block;
+	color: #44C0C2;
+	font-weight: 400;
+	font-size: 18px;
+	position: relative;
+}
+
+.menu ul li a:hover{
+	background-color: #44C0C2;
+	color: #fff;
+}
+
+.menu ul li a::before{
+	content: "";
+	position:absolute;
+	left: 0;
+	bottom: 0;
+	height: 3px;
+	width: 0;
+	opacity: 0;
+	background-color: red;
+	transition: all 1s ease;
+
+}
+
+.menu ul li a:hover:before{
+	opacity: 1;
+	width: 100%;
+}
+
+/*Header Part*/
+
+/*Slider Part*/
+
+.single-slider{
+	position: relative;
+	height: 100%;
+}
+
+.owl-carousel .owl-nav button span {
+	color: red;
+	font-size: 40px;
+	position: absolute;
+	left: 15px;
+	top: 45%;
+	width: 60px;
+	color: #44C0C2;
+	line-height: 50px;
+	height: 60px;
+	text-align: center;
+	border-radius: 50%;
+	background-color: #fff;
+	transform: translateY(-50%);
+}
+
+.owl-carousel .owl-nav button.owl-next span{
+	left: auto;
+	right: 15px;
+}
+
+.slider-image {
+	
+}
+.slider-image img{
+	width: 100%;
+	filter: brightness(50%);
+}
+
+.slider-text{
+	position: absolute;
+	left: 0;
+	right: 0;
+	color: #fff;
+	top: 50%;
+	transform: translateY(-50%);
+
+}
+
+.slider-text h1{
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+.slider-text p{
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 15px;
+}
+
+.slider-text a{
+	border: 1px solid #fff;
+	font-size: 18px;
+	display: inline-block;
+	padding: 10px 30px;
+	border-radius: 5px;
+	color: #fff;
+}
+
+.slider-text a:hover{
+	background-color: #44C0C2;
+	color: #fff;
+	border-color: #44C0C2;
+	transform: scale(1.1);
+}
+
+
+
+/*Slider Part*/
+
+
+/*Service Part*/
+
+.service-sec{
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.col-4{
+	width: 25%;
+	float: left;
+	padding-right: 20px;
+}
+
+.single-service{
+	text-align: center;
+
+}
+
+.service-icon{
+	margin-bottom: 20px;
+}
+.service-icon i{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	line-height: 100px;
+	border: 3px solid #47C1C3;
+	text-align: center;
+	font-size: 40px;
+	color: #47C1C3;
+	transition: all .5s ease-in-out;
+}
+
+.service-icon i:hover{
+	background-color:#47C1C3 ;
+	color: #fff;
+	transform: rotate(360deg);
+}
+
+
+.service-text {
+
+}
+
+.service-text h3{
+	color: #4E525D;
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 20px;
+
+}
+
+
+.service-text p{
+	color: #4E525D;
+	font-size: 16px;
+	text-align:center;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+
+.btn{
+	display: inline-block;
+	padding: 10px 30px;
+	background-color: #47C1C3;
+	border-radius: 3px;
+	font-style: 16px;
+	color: #fff;
+	transition: all 0.6s ease;
+}
+
+.btn:hover{
+	background-color: darkviolet;
+}
+
+.wrapper{
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+/*Service Part*/
+
+/*Portfolio Part*/
+
+.port-sec{
+	background-color: #f1f1f1f1;
+}
+
+.sec-title{
+
+}
+
+.sec-title h3{
+	color: #4E525D;
+	font-size: 40px;
+	margin-bottom: 40px;
+}
+
+.col-3{
+	width: 33.33%;
+	float: left;
+	padding-right: 15px;
+}
+
+.single-port{
+	line-height: 0;
+	padding-bottom: 15px;
+}
+
+.single-port img{
+	width: 100%;
+	filter: brightness(80%);
+	transition: 0.5s;
+}
+
+.single-port img:hover{
+	cursor: pointer;
+	transform: scale(1.05);
+	filter: saturate(120%);
+}
+
+.sec-link a{
+	margin-top: 10px;
+}
+
+/*Portfolio Part*/
+
+
+/*Team Section*/
+.team-sec{
+
+}
+
+.single-team{
+	 text-align:center;
+}
+
+.team-photo{
+	margin-bottom: 15px;
+	padding: 10px;
+}
+
+.team-photo img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	transition: all 0.4s ease-in-out;
+}
+
+
+.team-photo img:hover{
+	cursor: pointer;
+	transform: scale(1.1);
+	filter: brightness(80%);
+}
+
+.team-info{
+	padding: 10px;
+	color: #4E525D;
+}
+
+.team-info p{
+	font-size: 18px;
+	line-height: 28px;
+}
+
+.team-title{
+margin-bottom: 10px;
+}
+
+.team-title h3{
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.team-title span{
+	color: #44C0C2;
+}
+/*Team Section*/
+
+/*Pricing Section*/
+.pricing-area{
+	background-color: #f1f1f1;
+}
+.single-price{
+
+}
+
+.price-table{
+	text-align: center;
+}
+.price-table h3{
+	background-color: #485460;
+	color: #fff;
+	padding: 20px 0px;
+	font-size: 24px;
+	line-height: 30px;
+}
+.price-table span{
+	background-color:#F8F9FB;
+	display: block;
+	padding: 15px 0px;
+	color: #000;
+}
+.price-table ul{
+	background-color: #fff;
+}
+.price-table li{
+	color: #8E96AC;
+	background-color: #fff;
+	padding: 15px;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.darkpr{
+	background-color: #485460;
+}
+
+h3.bg-blue{
+	background-color: #44C0C2;
+}
+
+.prsec-link{
+	background-color: #F8F9FB;
+	padding: 20px 0px;
+}
+
+/*Pricing Section*/
+
+/*Testmonial*/
+
+.testmonial{
+padding: 50px 0px;
+}
+
+.single-test{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+
+.single-test h3{
+	font-size: 32px;
+	color: #44C0C2;
+
+}
+
+.client-pic{
+	text-align: center;
+	margin-bottom: 10px;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	
+}
+
+.client-pic img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.single-test p{
+	font-size: 20px;
+	line-height: 30px;
+	color: #485460;
+}
+
+/*Testmonial*/
+
+/*Footer Area*/
+
+.footer-sec{
+	background-image: url(../img/footerbg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.footer-title{
+	text-align: center;
+	margin-bottom: 40px;
+
+}
+
+.footer-title h3{
+	color: #fff;
+	font-size: 40px;
+}
+
+.col-2{
+	width: 50%;
+	float: left;
+}
+
+.get-con{
+margin-bottom: 15px;
+}
+.get-con h3{
+	font-size: 32px;
+	color: #f1f1f1;
+	margin-bottom: 10px;
+}
+.get-con p{
+	color: #aaa;
+	font-size: 20px;
+}
+
+.social{
+	margin-bottom: 10px;
+	padding: 0px 10px;
+}
+.social a{
+	color: #fff;
+	opacity: 0.7;
+	font-size: 40px;
+	padding-right: 10px;
+	display: inline-block;
+}
+
+.social a:hover{
+	opacity: 1;
+	transform: scale(1.2);
+}
+.add-con{
+	color: #aaa;
+}
+
+.add-con ul li{
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+
+.send-con{
+
+}
+
+.input-field{
+	float: left;
+	width: 50%;
+	margin-bottom: 20px;
+	padding-right: 10px;
+}
+
+.input-field input{
+	width: 100%;
+	border:0;
+	border-radius: 3px;
+	padding: 10px 15px;
+
+}
+
+.message{
+	clear: both;
+	padding-right: 10px;
+
+}
+
+.message textarea{
+	width: 100%;
+	height: 180px;
+	border:0;
+	border-radius: 3px;
+	padding: 20px 15px;
+	margin-bottom: 20px;
+}
+
+.message button{
+	float: right;
+	border: 0;
+}
+
+.message button:hover{
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer Area*/
+
+
+
+
+
+
+
+
